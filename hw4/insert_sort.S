@@ -1,7 +1,7 @@
 #insert_sort.S
 .section .data
 testdata:
-        .byte 'A', '0', 'z', 'P', '8', 'r', 'Z', '2', 'f'
+        .byte 'A', '0', 'z', 'P', '8', 'r', 'Z', '2', 'f', 'H'
 .section .text
 .global _start
 _start:
@@ -55,7 +55,7 @@ as_puts:
 	movl $4,%eax
 	movl $1,%ebx
 	movl $testdata,%ecx
-	movl $9,%edx
+	movl $10,%edx
 	int $0x80
 	ret
 

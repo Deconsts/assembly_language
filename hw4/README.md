@@ -1,2 +1,2 @@
-Turn lowercase letters into uppercase letters.
+Sort letters by inserting.
 Use "./asm insert_sort" to start.
